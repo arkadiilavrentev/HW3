@@ -1,111 +1,111 @@
 public class Main {
     public static void main(String[] args) {
 
-        // Задача 1
+        // Р—Р°РґР°С‡Р° 1
         {
-            System.out.println("Задача 1");
+            System.out.println("Р—Р°РґР°С‡Р° 1");
             int clientOS = 1;
             if (clientOS == 0)
-                System.out.println("Установите версию приложения для iOS по ссылке");
+                System.out.println("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ iOS РїРѕ СЃСЃС‹Р»РєРµ");
             if (clientOS == 1)
-                System.out.println("Установите версию приложения для Android по ссылке");
+                System.out.println("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ Android РїРѕ СЃСЃС‹Р»РєРµ");
             System.out.println("");
         }
-        // Задача 2
+        // Р—Р°РґР°С‡Р° 2
 
-        System.out.println("Задача 2");
+        System.out.println("Р—Р°РґР°С‡Р° 2");
         int clientOS = 1;
         int clientDeviceYear = 2015;
         if(clientOS == 0){
             if (clientDeviceYear >= 2015){
-                System.out.println("Установите версию приложения для iOS по ссылке");
+                System.out.println("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ iOS РїРѕ СЃСЃС‹Р»РєРµ");
             } else {
-                System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+                System.out.println("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РѕР±Р»РµРіС‡РµРЅРЅСѓСЋ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ iOS РїРѕ СЃСЃС‹Р»РєРµ");
             }
         }
         if(clientOS == 1){
             if (clientDeviceYear >= 2015){
-                System.out.println("Установите версию приложения для Android по ссылке");
+                System.out.println("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ Android РїРѕ СЃСЃС‹Р»РєРµ");
             } else {
-                System.out.println("Установите облегченную версию приложения для Android по ссылке");
+                System.out.println("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РѕР±Р»РµРіС‡РµРЅРЅСѓСЋ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ Android РїРѕ СЃСЃС‹Р»РєРµ");
             }
         }
         System.out.println("");
 
-        // Задача 3
+        // Р—Р°РґР°С‡Р° 3
 
-        System.out.println("Задача 3");
+        System.out.println("Р—Р°РґР°С‡Р° 3");
         int year = 2024;
         if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
-            System.out.println(year + " год является високосным");
+            System.out.println(year + " РіРѕРґ СЏРІР»СЏРµС‚СЃСЏ РІРёСЃРѕРєРѕСЃРЅС‹Рј");
         } else {
-            System.out.println(year + " год не является високосным");
+            System.out.println(year + " РіРѕРґ РЅРµ СЏРІР»СЏРµС‚СЃСЏ РІРёСЃРѕРєРѕСЃРЅС‹Рј");
         }
         System.out.println("");
 
-        // Задача 4
+        // Р—Р°РґР°С‡Р° 4
 
-        System.out.println("Задача 4");
+        System.out.println("Р—Р°РґР°С‡Р° 4");
         int deliveryDistance = 95;
         if (deliveryDistance <= 20){
-            System.out.println("Потребуется дней: 1");
+            System.out.println("РџРѕС‚СЂРµР±СѓРµС‚СЃСЏ РґРЅРµР№: 1");
         } else if (deliveryDistance <= 60){
-            System.out.println("Потребуется дней: 2");
+            System.out.println("РџРѕС‚СЂРµР±СѓРµС‚СЃСЏ РґРЅРµР№: 2");
         } else if (deliveryDistance <= 100) {
-            System.out.println("Потребуется дней: 3");
+            System.out.println("РџРѕС‚СЂРµР±СѓРµС‚СЃСЏ РґРЅРµР№: 3");
         }
         System.out.println("");
 
-        // Задача 5
+        // Р—Р°РґР°С‡Р° 5
 
-        System.out.println("Задача 5");
+        System.out.println("Р—Р°РґР°С‡Р° 5");
         int monthNumber = 12;
         switch (monthNumber){
             case 1:
-                System.out.println("Данный месяц принадлежит сезону Зима");
+                System.out.println("Р”Р°РЅРЅС‹Р№ РјРµСЃСЏС† РїСЂРёРЅР°РґР»РµР¶РёС‚ СЃРµР·РѕРЅСѓ Р—РёРјР°");
                 break;
             case 2:
-                System.out.println("Данный месяц принадлежит сезону Зима");
+                System.out.println("Р”Р°РЅРЅС‹Р№ РјРµСЃСЏС† РїСЂРёРЅР°РґР»РµР¶РёС‚ СЃРµР·РѕРЅСѓ Р—РёРјР°");
                 break;
             case 3:
-                System.out.println("Данный месяц принадлежит сезону Весна");
+                System.out.println("Р”Р°РЅРЅС‹Р№ РјРµСЃСЏС† РїСЂРёРЅР°РґР»РµР¶РёС‚ СЃРµР·РѕРЅСѓ Р’РµСЃРЅР°");
                 break;
             case 4:
-                System.out.println("Данный месяц принадлежит сезону Весна");
+                System.out.println("Р”Р°РЅРЅС‹Р№ РјРµСЃСЏС† РїСЂРёРЅР°РґР»РµР¶РёС‚ СЃРµР·РѕРЅСѓ Р’РµСЃРЅР°");
                 break;
             case 5:
-                System.out.println("Данный месяц принадлежит сезону Весна");
+                System.out.println("Р”Р°РЅРЅС‹Р№ РјРµСЃСЏС† РїСЂРёРЅР°РґР»РµР¶РёС‚ СЃРµР·РѕРЅСѓ Р’РµСЃРЅР°");
                 break;
             case 6:
-                System.out.println("Данный месяц принадлежит сезону Лето");
+                System.out.println("Р”Р°РЅРЅС‹Р№ РјРµСЃСЏС† РїСЂРёРЅР°РґР»РµР¶РёС‚ СЃРµР·РѕРЅСѓ Р›РµС‚Рѕ");
                 break;
             case 7:
-                System.out.println("Данный месяц принадлежит сезону Лето");
+                System.out.println("Р”Р°РЅРЅС‹Р№ РјРµСЃСЏС† РїСЂРёРЅР°РґР»РµР¶РёС‚ СЃРµР·РѕРЅСѓ Р›РµС‚Рѕ");
                 break;
             case 8:
-                System.out.println("Данный месяц принадлежит сезону Лето");
+                System.out.println("Р”Р°РЅРЅС‹Р№ РјРµСЃСЏС† РїСЂРёРЅР°РґР»РµР¶РёС‚ СЃРµР·РѕРЅСѓ Р›РµС‚Рѕ");
                 break;
             case 9:
-                System.out.println("Данный месяц принадлежит сезону Осень");
+                System.out.println("Р”Р°РЅРЅС‹Р№ РјРµСЃСЏС† РїСЂРёРЅР°РґР»РµР¶РёС‚ СЃРµР·РѕРЅСѓ РћСЃРµРЅСЊ");
                 break;
             case 10:
-                System.out.println("Данный месяц принадлежит сезону Осень");
+                System.out.println("Р”Р°РЅРЅС‹Р№ РјРµСЃСЏС† РїСЂРёРЅР°РґР»РµР¶РёС‚ СЃРµР·РѕРЅСѓ РћСЃРµРЅСЊ");
                 break;
             case 11:
-                System.out.println("Данный месяц принадлежит сезону Осень");
+                System.out.println("Р”Р°РЅРЅС‹Р№ РјРµСЃСЏС† РїСЂРёРЅР°РґР»РµР¶РёС‚ СЃРµР·РѕРЅСѓ РћСЃРµРЅСЊ");
                 break;
             case 12:
-                System.out.println("Данный месяц принадлежит сезону Зима");
+                System.out.println("Р”Р°РЅРЅС‹Р№ РјРµСЃСЏС† РїСЂРёРЅР°РґР»РµР¶РёС‚ СЃРµР·РѕРЅСѓ Р—РёРјР°");
                 break;
             default:
-                System.out.println("Данный месяц не существует");
+                System.out.println("Р”Р°РЅРЅС‹Р№ РјРµСЃСЏС† РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚");
         }
         System.out.println("");
 
-        // Задача 6
+        // Р—Р°РґР°С‡Р° 6
 
         {
-            System.out.println("Задача 6");
+            System.out.println("Р—Р°РґР°С‡Р° 6");
             int age = 19;
             int salary = 58_000;
             int limit = 0;
@@ -124,13 +124,13 @@ public class Main {
                     limit *= 1.2;
                 }
             }
-            System.out.println("Мы готовы выдать вам кредитную карту с лимитом " + limit + " рублей");
+            System.out.println("РњС‹ РіРѕС‚РѕРІС‹ РІС‹РґР°С‚СЊ РІР°Рј РєСЂРµРґРёС‚РЅСѓСЋ РєР°СЂС‚Сѓ СЃ Р»РёРјРёС‚РѕРј " + limit + " СЂСѓР±Р»РµР№");
             System.out.println("");
         }
 
-        // Задача 7
+        // Р—Р°РґР°С‡Р° 7
 
-        System.out.println("Задача 7");
+        System.out.println("Р—Р°РґР°С‡Р° 7");
         int age = 25;
         int salary = 60_000;
         int wantedSum = 330_000;
@@ -144,11 +144,11 @@ public class Main {
             baseRate -= 0.007;
         }
         float monthlyPaiment = (wantedSum + wantedSum * baseRate) / 12;
-        System.out.print("Максимальный платёж при зарплате " + salary + " равен " + salary / 2 + " рублей. Платёж по кредиту " + monthlyPaiment + " рублей. ");
+        System.out.print("РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ РїР»Р°С‚С‘Р¶ РїСЂРё Р·Р°СЂРїР»Р°С‚Рµ " + salary + " СЂР°РІРµРЅ " + salary / 2 + " СЂСѓР±Р»РµР№. РџР»Р°С‚С‘Р¶ РїРѕ РєСЂРµРґРёС‚Сѓ " + monthlyPaiment + " СЂСѓР±Р»РµР№. ");
         if (salary / 2 >= monthlyPaiment) {
-            System.out.println("Одобрено.");
+            System.out.println("РћРґРѕР±СЂРµРЅРѕ.");
         } else {
-            System.out.println("Отказано.");
+            System.out.println("РћС‚РєР°Р·Р°РЅРѕ.");
         }
     }
 }
